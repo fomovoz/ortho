@@ -1,0 +1,11 @@
+<locusActions>
+  <download>
+    <source size="12345">
+      <![CDATA[ https://www.dropbox.com/scl/fi/4kdsjzxeo8l3rl3pjxs35/ortho.zip?rlkey=frs1k46v3t0wguhna5x19dp6b&st=6n7rx6hc&dl=1 ]]>
+    </source>
+    <dest>
+      <![CDATA[ /mapsOnline/custom/ortho.zip ]]>
+    </dest>
+    <after>extract|deleteSource|refreshMap</after>
+  </download>
+</locusActions>
